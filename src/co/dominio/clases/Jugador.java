@@ -2,5 +2,6 @@ package co.dominio.clases;
 
 public class Jugador {
 	private int idJugador;
-	private String nombre;
+	private String nombreJugador;
+	private double saldoJugador;
 }
