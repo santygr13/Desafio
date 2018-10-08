@@ -1,5 +1,7 @@
 package co.dominio.clases;
 
+import java.util.ArrayList;
+
 public class Jugador {
 	private String nombreJugador;
 	private double saldoJugador;	

@@ -1,5 +1,7 @@
 package co.dominio.clases;
 
+import java.util.ArrayList;
+
 public class Apuesta {
 	public Jugador jugadoresApuesta;
 	public Double poteApuesta;
@@ -19,6 +21,12 @@ public class Apuesta {
 	}
 	public void setPoteApuesta(Double poteApuesta) {
 		this.poteApuesta = poteApuesta;
-	}
-	
+	}	
+	public ArrayList<Jugador> agregarJugador(Jugador jugador) {
+		ArrayList<Jugador> listaJugador = new ArrayList<Jugador>();
+		for(int i=0; i<listaJugador.size(); ++i) {
+			listaJugador.add(jugador);			
+		}
+		return listaJugador;
+	}	
 }
